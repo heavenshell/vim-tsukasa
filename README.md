@@ -8,9 +8,17 @@ My tsuquyomi extended plugin.
 
 Hover type
 
+```vim
+autocmd FileType typescript nnoremap <buffer> <leader>h :<c-u>TsuHint<CR>
+```
+
 ## Popup
 
 Popup type
+
+```vim
+autocmd FileType typescript nnoremap <buffer> <silent> <leader>p :<c-u>TsuHintPopup<CR>
+```
 
 ## License
 
